@@ -1,0 +1,31 @@
+.heading{
+  color: green;
+}
+img{
+  display: inline;
+  border: 1px solid black;
+}
+h1{
+  display: inline;
+
+}
+nav{
+  display: inline;
+  border: 1px solid black;
+  position: fixed;
+  top: 41px;
+
+}
+.header{
+  display:flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+#links{
+  justify-content: flex-end;
+}
+ul{
+  text-align: left;
+}
