@@ -1,5 +1,5 @@
 
-.container{
+.header{
   display:flex;
   position:fixed;
   z-index: 1;
@@ -27,4 +27,44 @@
 nav span{
   display:inline-block;
   padding:20px 10px;
+}
+.main{
+  display: flex;
+  border: 1px solid black;
+  width: 100%
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 32px;
+}
+div{
+  display:block;
+}
+p{
+  display:block;
+}
+.column.large{
+  display: inline-flex;
+  width:300px;
+  border: 1px solid green;
+}
+.first-story{
+  border:1px solid black;
+  height: 200px;
+  width: 100%;
+}
+
+.column.medium{
+  display: inline-flex;
+  width: 300px;
+  border: 1px solid yellow;
+}
+.column.small{
+  display: inline-flex;
+  width: 240px;
+  border: 1px solid blue;
 }
